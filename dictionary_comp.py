@@ -10,8 +10,8 @@ for char in sentence:
     else:
         char_frequency[char] = 1
 
-#pprint(char_frequency)
+# pprint(char_frequency)
 char_frequency_sorted = sorted(
-    char_frequency.items(), 
-    key = lambda kv: kv[1], reverse = True)
+    char_frequency.items(),
+    key=lambda kv: kv[1], reverse=True)
 pprint(char_frequency_sorted[0])

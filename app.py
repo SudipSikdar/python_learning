@@ -25,7 +25,7 @@ def get_greeting(name):
 
 greet("Sudip", "Sikdar")
 
-getval = get_greeting("Pagla")
+getval = get_greeting("hello")
 
 print(getval)
 
@@ -44,7 +44,7 @@ letters = ["a", "b", "c"]
 matrix = [[0, 1], [2, 3]]
 zeros = [0] * 100
 
-print(zeros)
+# print(zeros)
 
 
 def save_user(**user):
@@ -52,3 +52,6 @@ def save_user(**user):
 
 
 save_user(id=1, name="sudip", age=41)
+letters = ["a", "b", "c", "d"]
+
+print(letters.index("a"))

@@ -19,3 +19,5 @@ list2 = [10, 20, 30]
 
 list3 = list(zip("abc", list1, list2))
 print(list3)
+
+print(list1)

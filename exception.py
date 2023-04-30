@@ -7,8 +7,4 @@ except (ValueError, ZeroDivisionError):
 else:
     print("No exception were thrown")
 finally:
-    file.close()    
-
-        
-
-
+    file.close()
