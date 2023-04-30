@@ -6,4 +6,3 @@ queue.append(2)
 queue.append(3)
 
 queue.popleft()
-
